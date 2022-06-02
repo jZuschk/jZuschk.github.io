@@ -1,0 +1,156 @@
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+p {
+    font-family: 'Source Serif Pro', serif;
+    line-height: 1.4em;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;   
+    margin-bottom: 0;
+    font-size: 1.5em;  
+}
+
+.header__name {
+    color: #4D9235;
+    margin-top: 1.2em;
+    margin-bottom: 0;
+    text-align: center;
+}
+.header__facebook {
+    margin-top: 1.7em;
+}
+
+
+.upper-section__hero {
+    opacity: 90%;
+    margin-top: 2em;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: -1;
+}
+
+.upper-section__h1 {
+    color: #4D9235;
+    font-size: 2.5em;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+
+.video__teaser {
+    position: absolute;
+    max-width: 30%;
+    margin-left: 34%;
+    margin-top: 13%;
+    border: solid 3px;
+    border: #4D9235;
+    box-shadow: 80px 80px 80px rgba(6, 6, 7, 0.2);
+    padding: 3px;
+    border-radius: 25px;
+    border-color: #4D9235;
+    border-style: solid;
+    overflow: hidden;
+}
+
+.lower-section__text {
+    margin-top: 2em;
+    color: white;
+    background-color: rgba(77, 146, 53, 0.9); 
+    font-size: 2em;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.lower-section__btn {
+    border: solid 3px;
+    max-width: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    margin-left: 45%;
+}
+
+.lower-section__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    color: #4D9235;
+    font-size: 2em;
+}
+
+.interview__embed {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+
+
+
+.section__footer {
+    background-color: rgba(77, 146, 53, 0.9); 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+}
+
+.bottom__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    font-size: 2em;
+}
+
+
+.bottom__btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: none;
+    color: #4D9235;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+
+.Projekter__btn,
+.Sponsorer__btn {
+    font-size: 16px;
+}
+
+.bliv_medlem__btn {
+    font-size: 20px;
+}
