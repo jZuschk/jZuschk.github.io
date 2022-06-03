@@ -154,3 +154,21 @@ button {
 .bliv_medlem__btn {
     font-size: 20px;
 }
+
+@media screen and (max-width: 950px) {
+    .header__name{
+        color: #4D9235;
+        margin-top: 1.2em;
+        margin-bottom: 0;
+        text-align: center;
+        display: none;    
+    }
+    .lower-section__btn {
+        border: solid 3px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        width: 240px;
+        margin-left: 35%;
+    }
+}
+    
