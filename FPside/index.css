@@ -89,7 +89,6 @@ p {
     font-size: 1.5em;
     width: 240px;
     margin-left: 43%;
-
 }
 
 .lower-section__info {
@@ -164,6 +163,13 @@ button {
         margin-bottom: 0;
         text-align: center;
         display: none;    
+    }
+    .lower-section__btn {
+        border: solid 3px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        width: 240px;
+        margin-left: 35%;
     }
 }
     
